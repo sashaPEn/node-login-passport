@@ -1,6 +1,6 @@
 [build]
   publish = "views"
-  command = "npm run build"
+  command = "nodemon app.js"
   
 [build.environment]
   NODE_VERSION = "14.15.0"
